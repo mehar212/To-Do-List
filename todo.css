@@ -1,0 +1,82 @@
+body {
+    background: -webkit-linear-gradient(left,rgb(245, 24, 61),pink);
+    text-align: center;
+    margin: 100px auto;
+    width: 80%;
+    padding: 0 40px;
+    font: 14px italic;
+}
+
+h1 {
+    font-size: 20px;
+    color:white;
+    font-style: italic;
+    
+}
+
+div {
+    position :relative;
+    top: 20px;
+    background: #a9c7d6;
+    border-radius: 4px;
+    border: 1px solid rgb(158, 203, 241);
+    margin: 80px 80px 80px;
+    font-style:italic;
+}
+
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    background:white;
+    margin: 0 0;
+    width: 100%;
+    display: inline-block;
+
+}
+
+li {
+    color: #2C3238;
+    width: 96%;
+    padding: 15px 2%;
+    margin: 0;
+    text-align: left;
+    border-top: 1px solid #D5DDE4;
+}
+
+li span {
+    float: right;
+    color: #2C3238;
+}
+
+li.current {
+    background: #ffd7d8;
+}
+
+button {
+
+    margin:10px;
+    padding:15px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+    font-style: italic;
+}
+
+button:focus {
+  outline:none;
+}
+
+
+button:active {
+  background-color: grey;
+  outline:none;
+}
+.strike {
+    text-decoration: line-through;
+}
